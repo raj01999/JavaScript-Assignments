@@ -9,9 +9,7 @@ function CanDrive(hasDrivingLiscence, isTired, isSober) {
     if ( !isSober ){
         return "You shouldn't drive"
     }
-    else{
-        return "You can drive"
-    }
+    return "You can drive"
 }
 
 module.exports = CanDrive;
